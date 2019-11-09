@@ -1,0 +1,341 @@
+/*
+CSS Credit: http://www.templatemo.com/
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-family: Verdana, Arial, san-serif;
+	font-size: 11px;
+	color: #dddcdc;
+	background: #262324 url(images/templatemo_main_bg.jpg) top repeat-x;
+}
+
+a:link, a:visited { color: #b7bd19; text-decoration: none; font-weight: bold;} 
+a:active, a:hover { color: #b7bd19; text-decoration: underline;}
+
+img {
+	padding: 0px;
+	margin: 0px;
+}
+
+p {
+	margin: 0px;
+	padding: 0px;
+	text-align: justify;
+}
+
+h1 {
+	color: #b5bb1a;	
+	margin: 0 0 15px 0;
+	
+}
+
+
+.cleaner {
+	clear: both;
+	width: 100%;
+	height: 1px;
+	font-size: 1px;	
+}
+
+.cleaner_with_height {
+	clear: both;
+	width: 100%;
+	height: 30px;
+	font-size: 1px;	
+}
+
+.cleaner_with_divider {
+	clear: both;
+	width: 100%;
+	height: 15px;
+	border-bottom: 1px solid #333;
+	margin-bottom: 25px;
+	font-size: 1px;	
+}
+
+#templatemo_container{
+	width: 960px;
+	margin: 0 auto;
+}
+
+/* header */
+#templatemo_header {
+	width: 900px;
+	height: 60px;
+	padding: 40px 30px 0 30px;
+	background: url(images/templatemo_header_bg.jpg);
+}
+
+#templatemo_header #site_title {
+	float: left;
+	font-size: 30px;
+	font-weight: bold;
+	color: #fff;
+	padding: 10px 0;
+}
+/* end of header */
+
+/* menu */
+#templatemo_menu {
+	clear: both;
+	position: relative;
+	width: 920px;
+	margin: 0 20px;
+	height: 45px;
+	background: url(images/templatemo_menu_bg.jpg) right no-repeat;
+}
+
+#templatemo_menu span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 5px;
+	height: 45px;
+	background: url(images/templatemo_menu_bg_left.jpg) no-repeat;
+}
+
+#templatemo_menu ul{
+	padding: 0 0 0 10px;
+	margin: 0 auto;
+	height: 45px;
+	list-style: none;
+}
+
+#templatemo_menu ul li{
+	float:left;
+	padding-right: 5px;
+}
+
+#templatemo_menu li a{
+	float: left;
+	display: block;
+	color: #000;
+	font-size: 12px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	padding: 0px 0 0 8px;	
+}
+#templatemo_menu  li a b{
+	float: left;
+	display: block;
+	padding: 4px 24px 0 16px;
+}
+#templatemo_menu  li.current a, #templatemo_menu  li a:hover{
+	color: #fff;
+	text-decoration: none;
+	background: url(images/templatemo_menu_hover_bg_left.jpg) left top no-repeat; 
+}
+#templatemo_menu  li.current a b, #templatemo_menu li a:hover b{
+	color: #fff;
+	padding-top: 0px;
+	text-decoration: none;
+	background: url(images/templatemo_menu_hover_bg.jpg) right top no-repeat;
+}
+/* end of menu */
+
+/* banner */
+#templatemo_banner {
+	clear: both;
+	width: 960px;
+	height: 245px;
+	background: #b7bd19 url(images/templatemo_banner_bg.jpg) top left no-repeat;
+}
+
+#templatemo_banner p{
+	color: #333;
+	font-size: 13px;
+	width: 400px;
+	padding: 130px 0px 0px 70px;
+	text-align: left;
+	line-height: 20px;
+}
+
+#templatemo_banner a{
+	color: #000;
+}
+/* end of banner */
+
+/* content */
+#templatemo_content {
+	width: 880px;
+	padding: 30px 40px 0px 40px;
+	min-height: 500px;
+	background: url(images/templatemo_content_bg.jpg) repeat-y;
+}
+
+#templatemo_content #templatemo_content_left {
+	float: left;
+	width: 560px;
+}
+
+#templatemo_content #templatemo_content_right {
+	float: right;	
+	width: 280px;
+	height:350px;
+}
+
+/* left column */
+
+
+#templatemo_content_left p{
+	text-align: justify;
+	padding-bottom: 10px;
+}
+
+#templatemo_content_left ul {
+	margin: 0px;
+	padding: 10px 0 0 0;
+	list-style:none;
+}
+
+#templatemo_content_left li {
+	padding: 0 0 10px 25px;
+	background: url(images/templatemo_list_icon.jpg) left top no-repeat;
+}
+
+
+#templatemo_content_left .content_left_section_01 {
+	clear: both;
+}
+
+.content_left_section_01 h1 {
+	font-size: 24px;
+	margin: 0 0 15px 0;
+	padding: 5px 0 15px 0;
+}
+
+
+.content_left_section_01 img {
+	margin: 0 15px 5px 0;
+	border: 5px solid #2f2b2c;
+}
+
+#templatemo_content_left #why_choose_us {
+	float: left;
+	margin-right: 40px;
+	width: 260px;
+}
+
+#why_choose_us h1 {
+	font-size: 18px;
+	height: 20px;
+	padding: 19px 0 0 40px;
+	background: url(images/templatemo_graph.jpg) left bottom no-repeat;
+}
+
+#templatemo_content_left #services {
+	float: left;
+	width: 260px;
+}
+
+#services li a {
+	font-size: 11px;
+	font-weight: normal;
+	color: #dddcdc;
+}
+
+#services h1 {
+	font-size: 18px;
+	height: 20px;
+	padding: 19px 0 0 40px;
+	background: url(images/templatemo_services_icon.jpg) left bottom no-repeat;
+}
+
+/* end of left column */
+
+/* right column */
+ #templatemo_content_right .right_column_section{ 
+	clear: both;
+	margin-bottom: 30px;
+}
+
+.right_column_section img {
+	border: 5px solid #2f2b2c;
+	margin-bottom: 10px;
+}
+ 
+.right_column_section #company_news_header {
+	font-size: 18px;
+	height: 20px;
+	color: #b5bb1a;
+	padding: 19px 0 0 40px;
+	margin: 0 0 15px 0;
+	font-weight: bold;
+	background: url(images/templatemo_news_icon.jpg) left bottom no-repeat;
+	
+}
+
+.right_column_section #testimonials_header {
+	font-size: 18px;
+	height: 20px;
+	color: #b5bb1a;
+	padding: 19px 0 0 40px;
+	margin: 0 0 15px 0;
+	font-weight: bold;
+	background: url(images/templatemo_test_icon.jpg) left bottom no-repeat;	
+}
+ 
+.right_column_section h1 {
+	color: #20d1ee;	 
+	font-size: 12px;
+	padding: 0 0 5px 0;
+	margin: 0px;
+	font-weight: normal;
+ }
+ 
+.right_column_section h2 {
+	 margin: 0px;
+	 padding: 0px;
+	 font-size: 12px;
+	 font-weight: bold;
+ }
+ 
+#templatemo_content_right #newsletter_section{
+	clear: both;
+	padding: 10px 20px;
+	height: 235px;
+	background: url(images/templatemo_newsletter_bg.jpg) no-repeat;
+}
+
+#newsletter_section h1 {
+	color: #CC0;
+	font-size: 16px;
+	padding: 0;
+	margin: 0 0 20px 0;
+}
+
+#newsletter_section p{
+	margin-bottom: 10px;
+}
+
+#newsletter_section form {
+	padding: 0px;
+	 margin: 0px;
+}
+
+#newsletter_section input {
+	margin-bottom: 5px;
+}
+
+/* end of right column */
+/* end of content */
+
+/* footer */
+#templatemo_footer {
+	clear: both;
+	color: #999;
+	width: 960px;
+	padding: 20px 0px 20px 0;
+	text-align: center;
+	background: url(images/templatemo_footer_bg.jpg) top center no-repeat;
+}
+
+#templatemo_footer a{
+	color: #fff;
+	font-weight: normal;
+}
+/* end of footer */
